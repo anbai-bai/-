@@ -34,6 +34,24 @@ document.write(
 
 // 初始化页面，并载入必要资源
 function init() {
+
+	var windowWidth = $(window).width();
+	if(windowWidth < 720){
+        document.body.style.backgroundColor="#fff"
+		document.body.style.backgroundImage="url(https://hk1.rbqvpn.cf/2.jpg)"
+		document.body.style.backgroundPosition="center"
+		document.body.style.backgroundSize="cover"
+		document.body.style.backgroundAttachment="fixed"
+		document.body.style.backgroundRepeat="no-repeat"
+    }
+    if(windowWidth >= 720){
+        document.body.style.backgroundColor="#fff"
+		document.body.style.backgroundImage="url(https://kanzakiyuu.github.io/Images/bj.png)"
+		document.body.style.backgroundPosition="auto"
+		document.body.style.backgroundSize="cover"
+		document.body.style.backgroundAttachment="fixed"
+		document.body.style.backgroundRepeat="no-repeat"
+    }
   document.siteName = $("title").html();
   $("body").addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
   var html = `
