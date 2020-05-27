@@ -10,7 +10,7 @@ document.write(
   '<link rel="stylesheet" href="https://mengxin666.github.io/css/mdui.min.css">'
 );
 document.write(
-  '<link rel="stylesheet" href="https://mengxin666.github.io/css/nexmoe.min.css">'
+  '<link rel="stylesheet" href="https://raw.githack.com/anbai-bai/heiye/master/css/nexmoe_v2.min.css">'
 );
 // markdown支持
 document.write(
@@ -38,7 +38,7 @@ function init() {
 	var windowWidth = $(window).width();
 	if(windowWidth < 720){
         document.body.style.backgroundColor="#fff"
-		document.body.style.backgroundImage="url(https://hk1.rbqvpn.cf/2.jpg)"
+		document.body.style.backgroundImage="url(https://s1.ax1x.com/2020/04/15/J9OOfS.jpg)"
 		document.body.style.backgroundPosition="center"
 		document.body.style.backgroundSize="cover"
 		document.body.style.backgroundAttachment="fixed"
@@ -46,7 +46,7 @@ function init() {
     }
     if(windowWidth >= 720){
         document.body.style.backgroundColor="#fff"
-		document.body.style.backgroundImage="url(https://kanzakiyuu.github.io/Images/bj.png)"
+		document.body.style.backgroundImage="url(https://s1.ax1x.com/2020/04/15/J9q20x.jpg)"
 		document.body.style.backgroundPosition="auto"
 		document.body.style.backgroundSize="cover"
 		document.body.style.backgroundAttachment="fixed"
