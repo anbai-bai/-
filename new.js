@@ -34,6 +34,7 @@ document.write(
 
 // 初始化页面，并载入必要资源
 function init() {
+	var windowWidth=$(window).width();
 	    if(windowWidth < 720){
         document.body.style.backgroundColor="#fff"
 		document.body.style.backgroundImage="url(https://s1.ax1x.com/2020/04/15/J9q20x.jpg)"
@@ -53,7 +54,7 @@ function init() {
   document.siteName = $("title").html();
   $("body").addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
   var html = `
-<header class="nexmoe-nav">
+<headr eclass="nexmoe-nav">
     <div class="navSize">
 			<a href="/"><img class="avatar" src="http://q1.qlogo.cn/g?b=qq&nk=3288557828&s=640"/></a>
 			<div class="nav_menu">
