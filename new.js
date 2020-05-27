@@ -34,15 +34,31 @@ document.write(
 
 // 初始化页面，并载入必要资源
 function init() {
+	    if(windowWidth < 720){
+        document.body.style.backgroundColor="#fff"
+		document.body.style.backgroundImage="url(https://s1.ax1x.com/2020/04/15/J9q20x.jpg)"
+		document.body.style.backgroundPosition="center"
+		document.body.style.backgroundSize="cover"
+		document.body.style.backgroundAttachment="fixed"
+		document.body.style.backgroundRepeat="no-repeat"
+    }
+    if(windowWidth >= 720){
+        document.body.style.backgroundColor="#fff"
+		document.body.style.backgroundImage="url(https://s1.ax1x.com/2020/04/15/J9OOfS.jpg)"
+		document.body.style.backgroundPosition="auto"
+		document.body.style.backgroundSize="cover"
+		document.body.style.backgroundAttachment="fixed"
+		document.body.style.backgroundRepeat="no-repeat"
+    }
   document.siteName = $("title").html();
   $("body").addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
   var html = `
 <header class="nexmoe-nav">
     <div class="navSize">
-			<a href="/"><img class="avatar" src="https://ww1.yunjiexi.club/2020/05/08/ERw40.jpg"/></a>
+			<a href="/"><img class="avatar" src="http://q1.qlogo.cn/g?b=qq&nk=3288557828&s=640"/></a>
 			<div class="nav_menu">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="https://github.com/2496414612/2496414612.github.io" target="_blank">GitHub</a></li>
+					<li class="menu_li"><a href="https://www.baidu.com/" target="_blank">百度</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
 			</div>
